@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header{
+    position: absolute;
+    padding-top: 0.5rem;
+
+
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 185, 232);
+
+}
+
+.calculadora {
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: 4rem;
+
+
+
+}
+
+
+.display{
+    width: 400px;
+    height: 315px;
+
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-left: 7rem;
+    border-radius: 1rem;
+    line-height: 50px;
+    background-color: rgb(255, 58, 173);
+/*  box-shadow: 10px 15px 15px rgb(250, 55, 201) ;*/
+  
+
+}
+
+.operador{
+    border-radius: 0.5rem ;
+    justify-content: center;
+    align-items: center;
+    background-color:violet;
+    width: 38px;
+
+}
+
+input{
+    border-radius: 0.5rem;
+    height: 35px;
+    text-align: center;
+
+}
+
+
+#history {
+    align-items: center;
+    justify-content: center;
+    margin-left: 4rem;
+    padding: 2rem;
+    background-color: rgb(52, 190, 245);
+    width: 400px;
+    height:400px ;
+    margin-top: 6rem;
+    border-radius: 1rem ;
+    text-align: center;
+    box-shadow: 10px 15px 15px  rgb(67, 25, 252) ;
+
+
+}
